@@ -1,0 +1,135 @@
+<!-- 头部 -->
+<div class="container-header">
+    <div class='row' style='border-bottom:1px solid gray;height:38px;line-height:38px;'>
+        <div class='col-md-8'>
+            <span class="label label-default" style='margin-left:30px;'>全国</span>
+            <a href="#" class="label">[切换城市]</a>
+        </div>
+        <div class='col-md-4'>
+            <div class='col-md-3'><a href='#'>登录</a>/<a href='#'>注册</a></div>
+            <div class="col-md-3"><a href="#">个人中心</a></div>
+            <div class='col-md-3'><a href='#'>网站导航</a></div>
+            <div class='col-md-3'><a href='#'>我要推广</a></div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- 左侧图片 -->
+        <div class="col-md-3 header_row_col">
+            <img src="../images/logo.png" class="img-rounded" style='height:95px;width:276px;' alt="runningcat" />
+        </div>
+        <!-- 搜索框 -->
+        <div class="col-md-6 header_row_col">
+            <!-- 搜索 -->
+            <div class="col-md-12 input-group" style='margin-top:40px;'>
+                <input type="text" class="form-control" style='border:2px solid #5cb85c;' placeholder="请输入关键词...">
+                <span class="input-group-btn">
+                  <button class="btn btn-success" style='border:2px solid #5cb85c;' type="button">搜索</button>
+                </span>
+
+            </div>
+            <!-- 标签 -->
+            <div class='col-md-12'>
+                <ul id="search_label" class="nav navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">微商二维码 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">微商微信群</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">交友群</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">麻将群</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 发布二维码 -->
+        <div class="col-md-3 header_row_col">
+            <button type="button" class="btn btn-success" style='margin-top:40px;'>立即发布二维码</button>
+        </div>
+    </div>
+    <!-- 导航 -->
+    <div class='row'>
+        <div class='col-md-12'>
+            <ul id='navigation' class="nav nav-tabs" style="background-color: #5cb85c;">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active" data-toggle="tab">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab">微信群</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab">个人微信</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link" data-toggle="tab">微信公众号</a>
+                </li>
+                <li class="nav-item disabled">
+                    <a href="#" class="nav-link" data-toggle="tab">微信活动</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--导航分类 -->
+<div class="container-header">
+    <!-- 列表详情 -->
+    <div class="row">
+        <div class="col-sm-4 col-md-4 col-md-offset-10">
+            <span id='' class="label label-default text-muted pull-right">共</span>
+            <span id='listCount' class="label label-default text-info pull-right">100</span>
+            <span id='' class="label label-default text-muted pull-right">条数据</span>
+        </div>
+    </div>
+
+    <div id="" class="container-fluid">
+        <nav class="navbar navbar-dark bg-faded">
+            <ul class="nav navbar-nav">
+                <li class="nav-item active">
+                    <div class="btn-group">
+                        <!-- 二级分类 -->
+                        <button id='secondVal' type="button" class="btn btn-info">二级分类</button>
+                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div id="secondClass" class="dropdown-menu">
+                            <a class="dropdown-item second-item" href="#">Action</a>
+                            <a class="dropdown-item second-item" href="#">Another action</a>
+                            <a class="dropdown-item second-item" href="#">Something else here</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <a class="dropdown-item second-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <div class="btn-group">
+                        <!-- 三级分类 -->
+                        <button id='thirdVal' type="button" class="btn btn-info">三级分类</button>
+                        <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div id="thirdClass" class="dropdown-menu">
+                            <a class="dropdown-item third-item" href="#">Action</a>
+                            <a class="dropdown-item third-item" href="#">Another action</a>
+                            <a class="dropdown-item third-item" href="#">Something else here</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <a class="dropdown-item third-item" href="#">Separated link</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline navbar-form pull-right">
+                        <input class="form-control" type="text" placeholder="Search">
+                        <button id='search' class="btn btn-success-outline" type="button">查询</button>
+                    </form>
+                </li>
+            </ul>
+
+        </nav>
+        <!-- Split button -->
+
+
+    </div>
+</div>

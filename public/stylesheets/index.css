@@ -1,0 +1,33 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding:0px 10%;
+}
+a {
+    color: black;
+}
+.banner {
+    height: 330px;
+}
+.header_row_col {
+    text-align: center;
+}
+#navigation {
+    margin: 10px auto;
+}
+#navigation li a {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: chocolate;
+}
+
+/*底部链接*/
+.footer_ul{
+  text-align: center;
+  margin:4px auto;
+}
+.footer_li {
+  display:inline;
+    list-style-type: none;
+    text-align: center;
+    margin:6px 8px;
+}
